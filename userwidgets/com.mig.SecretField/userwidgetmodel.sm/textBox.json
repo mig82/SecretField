@@ -56,7 +56,7 @@
     "placeholderskin": "sc444f8834d34ede953589d1e714bc02",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "securetextentry": false,
+    "securetextentry": true,
     "textinputmode": "A",
     "tooltip": "",
     "viewtype": "default",
