@@ -16,6 +16,8 @@ coordinate cards or tokeniser devices, or use it in transaction authorisation
 scenarios —i.e.: where the user receives an authorisation code via SMS, Push
 Notification or e-mail which they then have to type into the application.
 
+![Secret Field][logo]
+
 ## Naming Conventions
 
 I favour suffixes in lieu of prefixes. All widgets and skins in this component bear names with suffixes indicating what they are —e.g.: `iconLabel`, `showButton`.
@@ -25,3 +27,5 @@ Skins bear the suffix of the widget type they apply to, followed by the `Skin` s
 ## Implementation Details
 
 In order to make it easier for you to manage project skins, all skins in this component bear a `SecretField` prefix —e.g.: `SecretFieldButtonSkin`, `SecretFieldIconLabelSkin`.
+
+[logo]: /pics/SecretField_pic1.png "Secret Field"
