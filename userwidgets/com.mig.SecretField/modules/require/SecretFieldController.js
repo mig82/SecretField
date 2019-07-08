@@ -1,4 +1,4 @@
-define(function() {
+define(["./slideIn"], function(slideIn) {
 
 	const EYE_OPEN = "\uF06E";
 	const EYE_CLOSED = "\uF070";
@@ -17,10 +17,12 @@ define(function() {
 
 		preShow: function(){
 			this.view.showButton.text = EYE_OPEN;
+			this.view.topFlex.top = "100%";
 		},
 
 		postShow: function(){
 			this.view.showButton.onTouchEnd = this.toggleButton;
+			slideIn(this.view.topFlex);
 		},
 
 		onHide: function(){},
