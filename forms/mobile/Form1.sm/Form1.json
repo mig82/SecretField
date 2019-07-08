@@ -30,7 +30,7 @@
     },
     "canUpdateUI": true,
     "children": [
-        "ParentFlex"
+        "SecretField"
     ],
     "containerweight": 100,
     "controllerInfo": {
