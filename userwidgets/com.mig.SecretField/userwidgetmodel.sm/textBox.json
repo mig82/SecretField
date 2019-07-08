@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "55dp"
+        "value": "52dp"
     },
     "_margin_": [
         0,
@@ -25,7 +25,7 @@
     "_placeholder_": "Placeholder",
     "_right_": {
         "type": "string",
-        "value": "55dp"
+        "value": "52dp"
     },
     "_skin_": "s065af18ed7347ca84eb20cdb2b28110",
     "_text_": "",
@@ -42,7 +42,7 @@
     "containerheightmode": 1,
     "containerweight": 100,
     "contentalignment": 6,
-    "focusskin": "s32dd61b412245acafc3fad21197062f",
+    "focusskin": "s065af18ed7347ca84eb20cdb2b28110",
     "id": "textBox",
     "info": null,
     "iscustomlayout": false,
