@@ -3,7 +3,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "-1dp"
     },
     "_margin_": [
         0,
@@ -19,36 +23,34 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s60999f4577b4eae92511e8c94c2fc31",
+    "_skin_": "s0bdee5a252241ab8512f2a4ae35fdf0",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
     "_width_": {
         "type": "string",
-        "value": "90%"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
     "children": [
-        "topFlex"
+        "iconLabel",
+        "textBox",
+        "showButton"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "SecretField",
+    "id": "topFlex",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "g11f8ce69a724ba78222c0c2854cbccd",
+    "kuid": "id138f2e548c4a379c8ea17a10c4aca4",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "userwidgetmodel",
+    "parent": "SecretField",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

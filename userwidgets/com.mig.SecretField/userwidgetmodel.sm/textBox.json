@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "50dp"
+        "value": "55dp"
     },
     "_margin_": [
         0,
@@ -25,7 +25,7 @@
     "_placeholder_": "Placeholder",
     "_right_": {
         "type": "string",
-        "value": "50dp"
+        "value": "55dp"
     },
     "_skin_": "s065af18ed7347ca84eb20cdb2b28110",
     "_text_": "",
@@ -51,7 +51,7 @@
     "kuid": "db6f3430b8004614a7aaa6f14f5385a0",
     "mode": "A",
     "name": "kony.ui.TextBox2",
-    "parent": "SecretField",
+    "parent": "topFlex",
     "pf": "userwidgetmodel",
     "placeholderskin": "sc444f8834d34ede953589d1e714bc02",
     "retaincontentalignment": false,

@@ -58,7 +58,7 @@
     "isvisible": true,
     "kuid": "fd28555e437641a6b561299b04205ce2",
     "name": "kony.ui.Label",
-    "parent": "SecretField",
+    "parent": "topFlex",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

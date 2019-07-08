@@ -43,7 +43,7 @@
     "isvisible": true,
     "kuid": "ba423ab8eb0e406b9d22d83090f9bdd7",
     "name": "kony.ui.Button",
-    "parent": "SecretField",
+    "parent": "topFlex",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
