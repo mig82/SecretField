@@ -30,7 +30,7 @@
     },
     "canUpdateUI": true,
     "children": [
-        "secretField1"
+        "mainFlex"
     ],
     "containerweight": 100,
     "controllerInfo": {

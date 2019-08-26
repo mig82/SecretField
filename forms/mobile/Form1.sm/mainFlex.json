@@ -1,11 +1,13 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_children_": [],
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -13,7 +15,7 @@
         0,
         0
     ],
-    "_orientation_": 1,
+    "_orientation_": 6,
     "_padding_": [
         0,
         0,
@@ -21,48 +23,44 @@
         0
     ],
     "_percent_": true,
-    "_render_": true,
     "_skin_": "s60999f4577b4eae92511e8c94c2fc31",
     "_top_": {
         "type": "string",
-        "value": "5dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "90%"
+        "value": "100%"
     },
+    "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
+    "children": [
+        "testLabel1",
+        "secretField1",
+        "testLabel2",
+        "secretField2",
+        "testLabel3",
+        "secretField3"
+    ],
     "clipbounds": true,
-    "containerweight": 0,
-    "data": {
-        "align": {
-            "Default": 4
-        },
-        "maxLength": 20,
-        "placeholder": "Password"
-    },
+    "containerweight": 100,
     "enablescrolling": true,
-    "id": "secretField1",
+    "id": "mainFlex",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ic5246c806cc44d68c2d40b6adbaa0cd",
-    "layouttype": 2,
-    "masterType": 1,
-    "name": "kony.ui.UserWidgetInstance",
-    "parent": "mainFlex",
+    "kuid": "b96521ef5b5941fdb9c8b9f52af41f80",
+    "layouttype": 4,
+    "name": "kony.ui.FlexContainer",
+    "parent": "Form1",
     "pf": "Form1",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "sourceUserWidget": "g11f8ce69a724ba78222c0c2854cbccd",
-    "wType": "UserWidgetInstance",
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
     "zindex": 1
 }
