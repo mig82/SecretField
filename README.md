@@ -30,4 +30,6 @@ Skins bear the suffix of the widget type they apply to, followed by the `Skin` s
 
 In order to make it easier for you to manage project skins, all skins in this component bear a `SecretField` prefix —e.g.: `SecretFieldButtonSkin`, `SecretFieldIconLabelSkin`.
 
+This project uses [Krōnin](https://www.npmjs.com/package/kronin)'s `kony.ui.getComponents` extension for testing but Krōnin is not a dependency of the `com.mig82.SecretField` component.
+
 [logo]: /pics/SecretField_pic1.png "Secret Field"
