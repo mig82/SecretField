@@ -1,13 +1,15 @@
-# SecretField
+# Secret Field
 
 This project showcases an example of how to build a *Reusable Secret Field
 Component* using *Kony Visualizer*. The Visualizer project just serves as a
 wrapper to demo the component. The component -called
 `com.mig82.SecretField` is the real focus of this exercise.
 
+This component showcases several **standard properties** and a **custom method** called `toggle` which is meant for external code to be able to switch the visibility of the secret text programmatically.
+
 ## Implementation Notes
 
-This project was built using Kony Visualizer Visualizer 8.4.22.
+This project was built using Kony Visualizer Quantum 8.4.22.
 
 ## Use Cases
 
