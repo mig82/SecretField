@@ -36,12 +36,14 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
+        "titleLabel",
         "testLabel1",
         "secretField1",
         "testLabel2",
         "secretField2",
         "testLabel3",
-        "secretField3"
+        "secretField3",
+        "toggleButton"
     ],
     "clipbounds": true,
     "containerweight": 100,

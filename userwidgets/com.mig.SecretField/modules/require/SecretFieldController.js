@@ -4,7 +4,8 @@ define(["./slideIn"], function(slideIn) {
 	const EYE_CLOSED = "\uF070";
 
 	return {
-		toggleButton: function (button){
+		toggle: function(){
+			var button = this.view.showButton;
 			if(button.text === EYE_OPEN){
 				button.text = EYE_CLOSED;
 				this.view.textBox.secureTextEntry = false;
@@ -21,7 +22,7 @@ define(["./slideIn"], function(slideIn) {
 		},
 
 		postShow: function(){
-			this.view.showButton.onTouchEnd = this.toggleButton;
+			this.view.showButton.onTouchEnd = this.toggle;
 			slideIn(this.view.topFlex);
 		},
 

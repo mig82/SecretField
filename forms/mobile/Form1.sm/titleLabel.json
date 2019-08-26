@@ -26,11 +26,11 @@
         "type": "string",
         "value": "5dp"
     },
-    "_skin_": "sfa4f67dbc574e8b89cd707b5a71ccdd",
-    "_text_": "Password: 20 max upper and lower alphanum.",
+    "_skin_": "s33d6a3958a74a5980259546975e2e0e",
+    "_text_": "Secret Text Field",
     "_top_": {
         "type": "string",
-        "value": "50dp"
+        "value": "10dp"
     },
     "_width_": {
         "type": "ref",
@@ -45,8 +45,8 @@
     },
     "canUpdateUI": true,
     "containerweight": 100,
-    "contentalignment": 4,
-    "id": "testLabel1",
+    "contentalignment": 5,
+    "id": "titleLabel",
     "info": null,
     "ipad": {
         "psp": {
@@ -60,7 +60,7 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "b3a6f9472c304c41921deb2aff098624",
+    "kuid": "de239d07a9064860a3e6fcbae74db6f7",
     "name": "kony.ui.Label",
     "parent": "mainFlex",
     "pf": "Form1",
