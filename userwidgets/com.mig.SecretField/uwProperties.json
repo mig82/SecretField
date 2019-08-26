@@ -343,12 +343,12 @@
                                 "spa"
                             ]
                         },
-                        "srcWidget": "textBox",
+                        "srcWidget": "hideButton",
                         "type": "list",
                         "uiRepresentation": "Padding",
-                        "wType": "TextField"
+                        "wType": "Button"
                     },
-                    "srcWgtKUID": "db6f3430b8004614a7aaa6f14f5385a0"
+                    "srcWgtKUID": "d434e91812e144ba833240a64fe15020"
                 },
                 {
                     "access": "Enable",
@@ -397,7 +397,7 @@
                         "access": "readwrite",
                         "category": "look",
                         "dependentKeysKUIDs": null,
-                        "displayName": "Button Icon",
+                        "displayName": "Show Icon",
                         "srcWidget": "showButton",
                         "type": "string",
                         "uiRepresentation": "Label-Textbox",
@@ -425,10 +425,46 @@
                 {
                     "access": "Enable",
                     "group": "Look & Feel",
-                    "kuid": "be088a8e8ded46a784a60b00525acc2c",
+                    "kuid": "g50031bff4b645258a24223778eadf91",
+                    "originalPropertyKey": "focusSkin",
+                    "propertyIndex": 11,
+                    "propertyKey": "textFocusSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text Box Focus Skin",
+                        "srcWidget": "textBox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "db6f3430b8004614a7aaa6f14f5385a0"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "ia145b07bb8c4de19e12b74e33dc858a",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 12,
+                    "propertyKey": "hideIcon",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Hide Icon",
+                        "srcWidget": "hideButton",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "d434e91812e144ba833240a64fe15020"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "f558cff851134f86a08d942ba933ba94",
                     "originalPropertyKey": "contentAlignment",
-                    "propertyIndex": 10,
-                    "propertyKey": "align",
+                    "propertyIndex": 13,
+                    "propertyKey": "contentAlignment",
                     "pw": {
                         "access": "readwrite",
                         "category": "look",
@@ -465,23 +501,6 @@
                             "Label": {}
                         },
                         "uiRepresentation": "Label-6ButtonGroup-Button",
-                        "wType": "TextField"
-                    },
-                    "srcWgtKUID": "db6f3430b8004614a7aaa6f14f5385a0"
-                },
-                {
-                    "access": "Enable",
-                    "group": "Look & Feel",
-                    "kuid": "g50031bff4b645258a24223778eadf91",
-                    "originalPropertyKey": "focusSkin",
-                    "propertyIndex": 11,
-                    "propertyKey": "textFocusSkin",
-                    "pw": {
-                        "access": "readwrite",
-                        "category": "skin",
-                        "dependentKeysKUIDs": null,
-                        "displayName": "Text Box Focus Skin",
-                        "srcWidget": "textBox",
                         "wType": "TextField"
                     },
                     "srcWgtKUID": "db6f3430b8004614a7aaa6f14f5385a0"

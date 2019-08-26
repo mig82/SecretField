@@ -38,7 +38,8 @@
     "children": [
         "iconLabel",
         "textBox",
-        "showButton"
+        "showButton",
+        "hideButton"
     ],
     "clipbounds": true,
     "containerweight": 100,

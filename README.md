@@ -7,6 +7,10 @@ wrapper to demo the component. The component -called
 
 This component showcases several **standard properties** and a **custom method** called `toggle` which is meant for external code to be able to switch the visibility of the secret text programmatically.
 
+### Fake Custom Property
+
+This project also showcases a **fake custom property**, which is a way to (ab)use the standard properties of a dummy widget which will never be shown to provide additional configuration parameters for a component. Such is the case of the `hideIcon` property, which is nothing but the `text` property of tha `hideButton` widget which is never made visible.
+
 ## Implementation Notes
 
 This project was built using Kony Visualizer Quantum 8.4.22.
