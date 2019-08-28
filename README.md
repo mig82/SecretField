@@ -17,6 +17,14 @@ Notification or e-mail which they then have to type into the application.
 ### Visualizer Version
 This project was built using Kony Visualizer Quantum 8.4.22.
 
+### Look & Feel Customisations
+
+This component exposes several skin properties for you to customise its look & feel. If you believe any properties are missing, please open an issue [here](https://github.com/mig82/SecretField/issues) and I'll consider exposing it. Forks and pull requests are also very welcome if you'd like to contribute.
+
+For the icons, this component relies on FontAwesome [4.7](https://fontawesome.com/v4.7.0/) and uses its unicodes as label text —e.g. \uf023 is the [closed lock icon](https://fontawesome.com/v4.7.0/icon/lock). I've exposed these properties so you can change the icon to whatever you like. If you'd like to use another icon font, use the the `iconSkin`, `buttonSkin` and `buttonFocusSkin` properties to pick that as a font, provided you've imported that other icon font into Visualizer.
+
+![Customisations](/pics/skin_customisations.png "Customisations")
+
 ### Naming Conventions
 
 I favour suffixes in lieu of prefixes. All widgets and skins in this component bear names with suffixes indicating what they are —e.g.: `iconLabel`, `showButton`.
