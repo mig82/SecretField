@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "seb027d9fada49f9847270b89983ebde",
+    "_text_": "Toggle",
+    "_top_": {
+        "type": "string",
+        "value": "67dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s5fe5aaad549460e8525d5b097fce7b1",
+    "id": "toggleButton",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e61cd63bb02d4016b43df91e130a0853",
+    "name": "kony.ui.Button",
+    "parent": "mainFlex",
+    "pf": "Form1",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}
